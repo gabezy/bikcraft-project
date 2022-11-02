@@ -11,6 +11,9 @@
   position: relative;
   z-index: -1;
 }
+.bike {
+  min-width: 280px;
+}
 
 .bike h3::before {
   position: absolute;
@@ -36,11 +39,22 @@
 }
 
 @media (max-width: 1200px) {
+  .bike a img {
+    transition: none;
+  }
+  .bike {
+    margin-bottom: 16px;
+  }
   .bike a img:hover {
     transform: none;
+    margin-bottom: 16px;
   }
   .bikes {
     margin-left: 20px;
     margin-right: 20px;
+    padding-bottom: 24px;
+    overflow-x: auto;
   }
+}
+@media (max-width: 850px) {
 }
