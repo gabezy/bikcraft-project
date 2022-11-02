@@ -1,0 +1,22 @@
+:root {
+  --clr-c12: #000000;
+  --clr-c11: #131313;
+  --clr-c10: #262626;
+  --clr-c09: #393939;
+  --clr-c08: #4e4e4e;
+  --clr-c07: #5c5c5c;
+  --clr-c06: #6c6c6c;
+  --clr-c05: #7c7c7c;
+  --clr-c04: #949494;
+  --clr-c03: #b1b1b1;
+  --clr-c02: #b1b1b1;
+  --clr-c01: #e9e9e9;
+  --clr-c00: #ffffff;
+}
+
+.clr-c0 {
+  color: var(--clr-c00);
+}
+.clr-c3 {
+  color: var(--clr-c03);
+}

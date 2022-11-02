@@ -1,0 +1,19 @@
+:root {
+  --ff-primary: "Poppins", Arial, sans-serif;
+  --ff-secondary: "Roboto";
+}
+
+.p-font-xxl {
+  font-size: 64px;
+  line-height: 1.125;
+}
+.p-font-s-b {
+  font-size: 18px;
+  line-height: 1.3;
+  font-weight: 600;
+}
+.r-font-m {
+  font-family: var(--ff-secondary);
+  font-size: 24px;
+  line-height: 1.5;
+}
