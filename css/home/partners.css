@@ -1,0 +1,26 @@
+.partners {
+  margin-top: 60px;
+  margin-bottom: 120px;
+}
+.partners-list {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.partners-list li {
+  display: flex;
+  padding: 32px;
+  border-right: 2px solid var(--clr-c01);
+  border-bottom: 2px solid var(--clr-c01);
+}
+.partners-list img {
+  margin: auto;
+}
+.partners-list li:nth-child(4),
+.partners-list li:nth-child(8) {
+  border-right: none;
+}
+.partners-list li:nth-child(n + 5) {
+  border-bottom: none;
+}
