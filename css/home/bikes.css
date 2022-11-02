@@ -34,3 +34,13 @@
   transform: scale(1.4);
   margin-bottom: 8rem;
 }
+
+@media (max-width: 1200px) {
+  .bike a img:hover {
+    transform: none;
+  }
+  .bikes {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}

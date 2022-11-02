@@ -51,7 +51,6 @@
   width: 100%;
   min-height: 100vh;
   z-index: 98;
-
   background: var(--clr-c10);
   padding-top: 10rem;
   transition: 0.4s;
@@ -65,9 +64,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 8px;
   text-align: center;
-  max-width: 200px;
+  max-width: 180px;
+  gap: 8px;
   margin: 0 auto;
   margin-bottom: 2rem;
   font-size: 1.125rem;
@@ -75,7 +74,7 @@
   border-radius: 4px;
   background: var(--clr-c09);
 }
-#phone {
+.mobile-nav li a img {
   width: 32px;
 }
 
@@ -86,7 +85,7 @@
 .logo {
   z-index: 99;
 }
-@media (max-width: 800px) {
+@media (max-width: 900px) {
   .header-menu {
     display: none;
   }
