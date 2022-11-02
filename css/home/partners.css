@@ -24,3 +24,20 @@
 .partners-list li:nth-child(n + 5) {
   border-bottom: none;
 }
+
+@media (max-width: 700px) {
+  .partners h2 {
+    font-size: 3rem;
+  }
+  .partners-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .partners-list li:nth-child(2),
+  .partners-list li:nth-child(6) {
+    border-right: none;
+  }
+  .partners-list li:nth-child(5),
+  .partners-list li:nth-child(6) {
+    border-bottom: 2px solid var(--clr-c01);
+  }
+}
