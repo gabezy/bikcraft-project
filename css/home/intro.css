@@ -1,6 +1,6 @@
 .intro-bg {
   background: var(--clr-c12);
-  box-shadow: inset 0px -120px var(--clr-w);
+  box-shadow: inset 0px -120px var(--clr-c00);
 }
 .intro {
   display: grid;
@@ -44,7 +44,7 @@
   .intro-bg {
     background: var(--clr-c11);
     padding-top: 40px;
-    box-shadow: inset 0px -60px var(--clr-w);
+    box-shadow: inset 0px -60px var(--clr-c00);
   }
   .intro {
     grid-template-columns: 1fr;
