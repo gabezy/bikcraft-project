@@ -21,22 +21,45 @@
 .tech-info h3 {
   padding-top: 72px;
 }
-.tech-info a {
+.tech-info > a {
   position: relative;
+  transition: 0.2s;
 }
-.tech-info a::after {
+.tech-info > a::after {
   content: "";
   display: block;
   position: absolute;
   width: 100%;
   height: 4px;
-  background: var(--clr-p01);
+  background: currentColor;
 }
-
-.tech-list {
+.tech-info > a:hover {
+  color: var(--clr-c00);
+}
+.tech-info > a .tech-list {
   display: flex;
   gap: 37px;
 }
 .tech-list-item h4 {
   width: max-content;
+}
+@media (max-width: 900px) {
+  .tech-bg {
+    box-shadow: none;
+  }
+  .tech {
+    grid-template-columns: 1fr;
+  }
+  .tech-info {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .tech-image img {
+    display: none;
+  }
+}
+@media (max-width: 600px) {
+  .tech-list {
+    flex-direction: column;
+  }
 }
