@@ -15,17 +15,29 @@
 }
 
 /* Margin */
+.mg-b-60 {
+  margin-bottom: 60px;
+}
+.mg-b-48 {
+  margin-bottom: 48px;
+}
 .mg-b-40 {
   margin-bottom: 40px;
 }
 .mg-b-32 {
   margin-bottom: 2rem;
 }
+.mg-b-24 {
+  margin-bottom: 24px;
+}
 .mg-b-20 {
   margin-bottom: 20px;
 }
 .mg-b-16 {
   margin-bottom: 16px;
+}
+.mg-b-8 {
+  margin-bottom: 8px;
 }
 
 /* Padding */

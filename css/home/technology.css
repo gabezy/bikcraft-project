@@ -1,0 +1,42 @@
+.tech-bg {
+  background: var(--clr-c10);
+  box-shadow: inset 0px 80px var(--clr-c00), inset 0px -80px var(--clr-c00);
+}
+.tech {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+.tech-image img {
+  height: 100%;
+  object-fit: cover;
+  object-position: left;
+}
+.tech-info {
+  display: grid;
+  justify-items: flex-start;
+  padding-top: 160px;
+  padding-bottom: 160px;
+}
+.tech-info h3 {
+  padding-top: 72px;
+}
+.tech-info a {
+  position: relative;
+}
+.tech-info a::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  background: var(--clr-p01);
+}
+
+.tech-list {
+  display: flex;
+  gap: 37px;
+}
+.tech-list-item h4 {
+  width: max-content;
+}
