@@ -36,9 +36,9 @@
 .tech-info > a:hover {
   color: var(--clr-c00);
 }
-.tech-info > a .tech-list {
+.tech-list {
   display: flex;
-  gap: 37px;
+  gap: 34px;
 }
 .tech-list-item h4 {
   width: max-content;
