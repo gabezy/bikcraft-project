@@ -1,6 +1,13 @@
 body {
   font-family: var(--ff-primary);
   padding-bottom: 200px;
+  color: #131313;
+}
+h1,
+h2,
+h3,
+h4 {
+  text-transform: none;
 }
 
 * {
@@ -18,5 +25,8 @@ a {
 img {
   max-width: 100%;
   display: block;
+}
+
+img[src$=".jpg"] {
   border-radius: 4px;
 }
