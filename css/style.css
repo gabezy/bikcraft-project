@@ -1,9 +1,15 @@
+/* Global */
 @import "/css/global/global.css";
+@import "/css/global/header.css";
+
+/* Utility */
 @import "/css/utility/colors.css";
 @import "/css/utility/typography.css";
 @import "/css/utility/components.css";
-@import "/css/global/header.css";
+
+/* Home */
 @import "/css/home/intro.css";
 @import "/css/home/bikes.css";
 @import "/css/home/technology.css";
 @import "/css/home/partners.css";
+@import "/css/home/seguros.css";
