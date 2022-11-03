@@ -24,6 +24,9 @@
 }
 
 /* Margin */
+.mg-b-120 {
+  margin-bottom: 120px;
+}
 .mg-b-80 {
   margin-bottom: 80px;
 }
