@@ -13,8 +13,23 @@
   border-radius: 4px;
   box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.1);
 }
+.btn-image {
+  color: #ffffff;
+  max-width: fit-content;
+  padding: 1rem 2rem;
+  background: linear-gradient(180deg, #131313 0%, #1a1818 100%);
+  display: block;
+  border-radius: 4px;
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.1);
+}
 
 /* Margin */
+.mg-b-80 {
+  margin-bottom: 80px;
+}
+.mg-b-72 {
+  margin-bottom: 72px;
+}
 .mg-b-60 {
   margin-bottom: 60px;
 }

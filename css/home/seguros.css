@@ -1,0 +1,53 @@
+.seguros-bg {
+  background: var(--clr-p02);
+  box-shadow: inset 0 -120px var(--clr-c00);
+}
+.seguros {
+  display: grid;
+  padding-top: 60px;
+  justify-items: center;
+}
+.seguros > p {
+  max-width: 51ch;
+}
+.seguros-image {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.seguros-image a {
+  position: absolute;
+  bottom: 50px;
+}
+
+.seguros-image a:hover {
+  background: var(--clr-c12);
+}
+
+@media (max-width: 850px) {
+  .seguros h2 {
+    font-size: 3rem;
+  }
+  .seguros > p {
+    font-size: 1.125rem;
+    line-height: 1.35;
+  }
+}
+
+@media (max-width: 600px) {
+  .seguros-bg {
+    box-shadow: none;
+  }
+  .seguros-image {
+    width: 100%;
+  }
+  .seguros-image img {
+    display: none;
+  }
+  .seguros-image a {
+    position: relative;
+    bottom: 0;
+    margin-bottom: 40px;
+  }
+}
