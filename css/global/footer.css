@@ -7,10 +7,13 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 5rem;
 }
+.footer a {
+  text-transform: unset;
+}
 .footer-contact li:nth-child(2) {
   padding-bottom: 16px;
 }
-.footer-contact li > span {
+.footer-contact li a span {
   display: block;
 }
 .footer-social {
@@ -24,6 +27,9 @@
 }
 .footer-info a:first-child {
   text-transform: capitalize;
+}
+.footer-copy {
+  grid-column: 1/-1;
 }
 
 @media (max-width: 800px) {
@@ -41,7 +47,8 @@
   }
   .footer-logo,
   .footer-contact,
-  .footer-info {
+  .footer-info,
+  .footer-copy {
     margin-left: 50px;
   }
 }
