@@ -27,10 +27,6 @@
   max-width: 52ch;
 }
 
-.intro-info a:hover {
-  background: linear-gradient(180deg, #edb900 0%, #d97400 100%);
-}
-
 @media (max-width: 1200px) {
   .intro-info h1 {
     font-size: 48px;

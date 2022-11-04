@@ -16,4 +16,5 @@
 @import "/css/home/seguros.css";
 
 /* Pages */
-@import "/css/termos/termos.css";
+@import "/css/pages/termos.css";
+@import "/css/pages/bicicletas.css";
