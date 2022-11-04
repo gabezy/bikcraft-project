@@ -54,6 +54,15 @@
     padding-top: 40px;
     padding-bottom: 40px;
   }
+  .tech-info > span {
+    font-size: 1rem;
+  }
+  .tech-info > h2 {
+    font-size: 3rem;
+  }
+  .tech-info > p {
+    font-size: 1.2rem;
+  }
   .tech-image img {
     display: none;
   }
