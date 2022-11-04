@@ -1,56 +1,56 @@
-.seguros-bg {
+.seguro-bg {
   background: var(--clr-p01);
   box-shadow: inset 0 -120px var(--clr-c00);
 }
-.seguros {
+.seguro {
   display: grid;
   padding-top: 60px;
   justify-items: center;
 }
-.seguros > p {
+.seguro > p {
   max-width: 51ch;
 }
-.seguros-image {
+.seguro-image {
   position: relative;
   display: flex;
   justify-content: center;
 }
 
-.seguros-image a {
+.seguro-image a {
   position: absolute;
   bottom: 50px;
 }
 
-.seguros-image a:hover {
+.seguro-image a:hover {
   background: var(--clr-c12);
 }
 
 @media (max-width: 850px) {
-  .seguros h2 {
+  .seguro h2 {
     font-size: 3rem;
   }
-  .seguros > p {
+  .seguro > p {
     font-size: 1.125rem;
     line-height: 1.35;
   }
 }
 
 @media (max-width: 600px) {
-  .seguros-bg {
+  .seguro-bg {
     box-shadow: none;
   }
-  .seguros-image {
+  .seguro-image {
     width: 100%;
   }
-  .seguros-image img {
+  .seguro-image img {
     display: none;
   }
-  .seguros-image a {
+  .seguro-image a {
     position: relative;
     bottom: 0;
     margin-bottom: 40px;
   }
-  .seguros h2 {
+  .seguro h2 {
     font-size: 2.5rem;
   }
 }
