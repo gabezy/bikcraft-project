@@ -33,6 +33,11 @@
   font-weight: 600;
   text-transform: uppercase;
 }
+.font-1-xs {
+  font-size: 0.75rem;
+  line-height: 1.35;
+  font-weight: 600;
+}
 .font-2-l {
   font-family: var(--ff-secondary);
   font-size: 1.5rem;
