@@ -1,12 +1,12 @@
 .container {
-  max-width: 1160px;
+  max-width: 1200px;
   margin: 0 auto;
   box-sizing: border-box;
   padding: 0 20px;
 }
 .btn {
   color: #663300;
-  max-width: fit-content;
+  max-width: max-content;
   padding: 1rem 2rem;
   background: linear-gradient(180deg, #ffc700 0%, #ff9500 100%);
   display: block;
@@ -63,6 +63,9 @@
 }
 .mg-b-8 {
   margin-bottom: 8px;
+}
+.mg-b-4 {
+  margin-bottom: 4px;
 }
 
 /* Padding */
