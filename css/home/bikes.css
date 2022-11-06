@@ -7,6 +7,10 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 40px;
 }
+#bicicletas .bikes {
+  max-width: 1200px;
+  display: flex;
+}
 .bike h3 {
   position: relative;
   z-index: -1;
