@@ -99,29 +99,6 @@
 .tecnica li:last-child::after {
   display: none;
 }
-@media (max-width: 900px) {
-  .product {
-    grid-template-columns: 1fr;
-  }
-  .product-image {
-    grid-row: 2;
-  }
-  .title h1 {
-    margin-bottom: 32px;
-  }
-}
-@media (max-width: 450px) {
-  .info {
-    grid-template-columns: 1fr;
-  }
-  .product-content_info a {
-    grid-column: 1/-1;
-    margin-bottom: 8px;
-  }
-  .product-content_info {
-    margin-bottom: 24px;
-  }
-}
 
 /* ************** */
 .choice {
@@ -152,4 +129,71 @@
   width: 12px;
   height: 8px;
   background: var(--clr-p01);
+}
+
+/* ********** */
+.seguro-bike-bg {
+  background: var(--clr-c11);
+  box-shadow: inset 0 120px var(--clr-c00), inset 0 -120px var(--clr-c12);
+}
+.seguro-bike {
+  max-width: 1400px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+.seguro-bike-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.seguro-bike-content {
+  padding: 180px 0;
+}
+.seguro-bike-content p {
+  font-weight: 400;
+  max-width: 60ch;
+}
+@media (max-width: 900px) {
+  .product {
+    grid-template-columns: 1fr;
+  }
+  .product-image {
+    grid-row: 2;
+  }
+  .title h1 {
+    margin-bottom: 32px;
+  }
+  .seguro-bike-bg {
+    box-shadow: inset 0 -120px var(--clr-c12);
+  }
+  .seguro-bike {
+    grid-template-columns: 1fr;
+  }
+  .seguro-bike-image {
+    grid-row: 2;
+  }
+  .seguro-bike-image img {
+    max-height: 400px;
+  }
+  .seguro-bike-content {
+    padding-top: 60px;
+    padding-bottom: 40px;
+  }
+}
+@media (max-width: 450px) {
+  .info {
+    grid-template-columns: 1fr;
+  }
+  .product-content_info a {
+    grid-column: 1/-1;
+    margin-bottom: 8px;
+  }
+  .product-content_info {
+    margin-bottom: 24px;
+  }
+  .seguro-bike h2 {
+    font-size: 3rem;
+  }
 }
