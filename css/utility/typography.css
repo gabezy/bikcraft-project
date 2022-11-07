@@ -33,6 +33,11 @@
   font-weight: 600;
   text-transform: uppercase;
 }
+.font-1-s-m {
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 500;
+}
 .font-1-xs-m {
   font-size: 0.75rem;
   line-height: 1.35;
@@ -85,4 +90,10 @@
   font-size: 1rem;
   line-height: 1.5;
   font-weight: 600;
+}
+.font-2-s-m {
+  font-family: var(--ff-secondary);
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 500;
 }

@@ -7,6 +7,7 @@
 @import "/css/utility/colors.css";
 @import "/css/utility/typography.css";
 @import "/css/utility/components.css";
+@import "/css/utility/form.css";
 
 /* Home */
 @import "/css/home/intro.css";
@@ -22,3 +23,7 @@
 
 /* Bicicleta-page */
 @import "/css/pages/bicicleta.css";
+
+/* Contato */
+@import "../css/contato/contato.css";
+@import "../css/contato/lojas.css";

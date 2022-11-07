@@ -16,6 +16,8 @@
   line-height: 1.35;
   font-weight: 600;
   text-transform: uppercase;
+  border: none;
+  cursor: pointer;
 }
 .btn:hover {
   background: linear-gradient(180deg, #edb900 0%, #d97400 100%);
