@@ -1,6 +1,8 @@
 .tech-bg {
-  background: var(--clr-c10);
+  background: var(--clr-c10) url("../../img/dec/bottom-left.svg") no-repeat
+    bottom 120px left 20px;
   box-shadow: inset 0px 80px var(--clr-c00), inset 0px -80px var(--clr-c00);
+  position: relative;
 }
 .tech {
   display: grid;

@@ -1,6 +1,8 @@
 .intro-bg {
-  background: var(--clr-c12);
+  background: var(--clr-c12) url("../../img/dec/bottom-left.svg") no-repeat
+    bottom 160px left 20px;
   box-shadow: inset 0px -120px var(--clr-c00);
+  position: relative;
 }
 .intro {
   display: grid;
