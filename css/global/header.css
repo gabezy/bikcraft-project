@@ -41,6 +41,9 @@
   display: flex;
   gap: 40px;
 }
+.header-login img {
+  width: 36px;
+}
 .hamburger {
   display: none;
 }
