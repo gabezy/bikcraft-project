@@ -185,12 +185,16 @@
 .perguntas-item button[aria-expanded="true"]::after {
   transform: rotate(180deg);
 }
+
 .perguntas-item dd {
   padding-left: 20px;
   max-width: 87ch;
+}
+.js .perguntas-item dd {
   display: none;
 }
-.perguntas-item dd.activate {
+
+.js .perguntas-item dd.activate {
   display: block;
   margin-top: 16px;
 }

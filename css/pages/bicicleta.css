@@ -3,6 +3,7 @@
   grid-template-columns: repeat(2, 1fr);
   gap: 40px;
   align-items: start;
+  background: url("../../img/dec/bottom-left.svg") no-repeat left 0px bottom 0px;
 }
 .product-image {
   display: flex;
@@ -12,6 +13,7 @@
 .product-image img {
   flex: 1;
   min-width: 200px;
+  cursor: pointer;
 }
 .product-image img:first-child {
   min-width: 100%;
@@ -133,7 +135,8 @@
 
 /* ********** */
 .seguro-bike-bg {
-  background: var(--clr-c11);
+  background: var(--clr-c11) url("../../img/dec/top-right.svg") no-repeat right
+    60px top 160px;
   box-shadow: inset 0 120px var(--clr-c00), inset 0 -120px var(--clr-c12);
 }
 .seguro-bike {
@@ -158,7 +161,9 @@
 @media (max-width: 900px) {
   .product {
     grid-template-columns: 1fr;
+    background: none;
   }
+
   .product-image {
     grid-row: 2;
   }
@@ -167,6 +172,7 @@
   }
   .seguro-bike-bg {
     box-shadow: inset 0 -120px var(--clr-c12);
+    background: var(--clr-c11);
   }
   .seguro-bike {
     grid-template-columns: 1fr;
