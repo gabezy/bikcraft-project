@@ -58,15 +58,30 @@ if (divFAQ) {
 
 // Change image gallery
 const imgsProduct = document.querySelectorAll(".product-image img");
+const galleryContainer = document.querySelector(".product-image");
 
 if (imgsProduct) {
-  function changeImage(event) {
-    let mainImage = document.querySelector("#main-image");
-    event.addEventListener("click", function (event) {
-      const currentSrc = event.currentTarget;
-      mainImage.src = currentSrc.src;
+  function changeImage(img) {
+    img.addEventListener("click", function (event) {
+      const image = event.currentTarget;
+      const media = matchMedia("(min-width: 960px").matches;
+      if (media) {
+        galleryContainer.prepend(image);
+      }
     });
   }
+
+  imgsProduct.forEach(changeImage);
 }
 
-imgsProduct.forEach(changeImage);
+// Simple-anime
+
+if (window.SimpleAnime) {
+  new SimpleAnime();
+}
+
+// Intense
+
+if (window.requestAnimFrame) {
+  window.onload = function () {};
+}
