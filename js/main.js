@@ -21,7 +21,7 @@ if (headerMenu) {
   headerMenu.forEach(activateLink);
 }
 
-// Activete items orcamento
+// Activate items orcamento
 
 const paramSearch = location.search;
 
@@ -34,6 +34,26 @@ if (paramSearch) {
     }
   }
   param.forEach(activateProduct);
+}
+
+// Activate FAQ
+const divFAQ = document.querySelectorAll(".perguntas-item button");
+
+if (divFAQ) {
+  function activateQuestion(event) {
+    const question = event.currentTarget;
+    const controls = question.getAttribute("aria-controls");
+    const answer = document.getElementById(controls);
+    answer.classList.toggle("activate");
+    const activate = answer.classList.contains("activate");
+    question.setAttribute("aria-expanded", activate);
+  }
+
+  function eventQuestion(question) {
+    question.addEventListener("click", activateQuestion);
+  }
+
+  divFAQ.forEach(eventQuestion);
 }
 
 // Change image gallery
