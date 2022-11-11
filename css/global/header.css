@@ -52,9 +52,10 @@
   position: fixed;
   top: 0;
   left: 100%;
-  width: 100%;
+  width: 100vw;
   min-height: 100vh;
   z-index: 98;
+  box-sizing: border-box;
   background: var(--clr-c10);
   padding-top: 10rem;
   transition: 0.4s;
@@ -129,12 +130,12 @@
     transition: 0.4s;
   }
   .hamburger.is-active::after {
-    transform: rotate(-45deg) translate(5px, -9px);
+    transform: rotate(-45deg) translate(5px, -8px);
   }
   .hamburger.is-active .bar {
     opacity: 0;
   }
   .hamburger.is-active::before {
-    transform: rotate(45deg) translate(7px, 8px);
+    transform: rotate(45deg) translate(7px, 9px);
   }
 }

@@ -2,6 +2,9 @@ body {
   font-family: var(--ff-primary);
   color: #131313;
 }
+body.mobile {
+  overflow-y: hidden;
+}
 h1,
 h2,
 h3,

@@ -1,10 +1,12 @@
 // Hamburger menu
 const menuBtn = document.querySelector(".hamburger");
 const mobileNav = document.querySelector(".mobile-nav");
+const body = document.querySelector("body");
 
 menuBtn.addEventListener("click", function () {
   menuBtn.classList.toggle("is-active");
   mobileNav.classList.toggle("is-active");
+  body.classList.toggle("mobile");
 });
 
 // Activate Link header
